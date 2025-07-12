@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:reddit_tutorial/core/common/error_text.dart';
 import 'package:reddit_tutorial/core/common/loader.dart';
@@ -10,6 +11,9 @@ import 'package:reddit_tutorial/models/user_model.dart';
 import 'package:reddit_tutorial/router.dart';
 import 'package:reddit_tutorial/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
+=======
+import 'package:stack_it/theme/Pallete.dart';
+>>>>>>> 16b6ccf8f48a2b38071d11823e54c9f4967e8145
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,6 +25,7 @@ class MyApp extends ConsumerStatefulWidget {
   const MyApp({super.key});
 
   @override
+<<<<<<< HEAD
   ConsumerState<ConsumerStatefulWidget> createState() => _MyAppState();
 }
 
@@ -60,5 +65,14 @@ class _MyAppState extends ConsumerState<MyApp> {
           error: (error, stackTrace) => ErrorText(error: error.toString()),
           loading: () => const Loader(),
         );
+=======
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'StackIt',
+      theme: Pallete.natureTheme,
+
+      home: const SizedBox(),
+    );
+>>>>>>> 16b6ccf8f48a2b38071d11823e54c9f4967e8145
   }
 }
