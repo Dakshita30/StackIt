@@ -8,13 +8,13 @@ stack_it\lib\firebase_options.dart:
    7  import 'package:stack_it/features/community/screens/community_screen.dart';
    8: import 'package:stack_it/features/community/screens/create_community_screen.dart';
    9: import 'package:stack_it/features/community/screens/edit_community_screen.dart';
-  10: import 'package:reddit_tutorial/features/community/screens/mod_tools_screen.dart';
-  11: import 'package:reddit_tutorial/features/home/screens/home_screen.dart';
-  12: import 'package:reddit_tutorial/features/post/screens/add_post_screen.dart';
-  13: import 'package:reddit_tutorial/features/post/screens/add_post_type_screen.dart';
-  14: import 'package:reddit_tutorial/features/post/screens/comments_screen.dart';
-  15: import 'package:reddit_tutorial/features/user_profile/screens/edit_profile_screen.dart';
-  16: import 'package:reddit_tutorial/features/user_profile/screens/user_profile_screen.dart';
+  10: import 'package:stack_it/features/community/screens/mod_tools_screen.dart';
+  11: import 'package:stack_it/features/home/screens/home_screen.dart';
+  12: import 'package:stack_it/features/post/screens/add_post_screen.dart';
+  13: import 'package:stack_it/features/post/screens/add_post_type_screen.dart';
+  14: import 'package:stack_it/features/post/screens/comments_screen.dart';
+  15: import 'package:stack_it/features/user_profile/screens/edit_profile_screen.dart';
+  16: import 'package:stack_it/features/user_profile/screens/user_profile_screen.dart';
   17  import 'package:routemaster/routemaster.dart';
 
 stack_it\lib\core\common\sign_in_button.dart:
