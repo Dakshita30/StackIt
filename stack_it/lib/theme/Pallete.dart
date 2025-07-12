@@ -10,7 +10,7 @@ class Pallete {
     scaffoldBackgroundColor: paleCream,
     primaryColor: mutedGreen,
     cardColor: softOlive,
-  
+
     appBarTheme: const AppBarTheme(
       backgroundColor: mutedGreen,
       iconTheme: IconThemeData(color: paleCream),
@@ -24,9 +24,7 @@ class Pallete {
       bodyMedium: TextStyle(color: Colors.black87),
       headlineSmall: TextStyle(color: Colors.black87),
     ),
-    drawerTheme: const DrawerThemeData(
-      backgroundColor: softOlive,
-    ),
+    drawerTheme: const DrawerThemeData(backgroundColor: softOlive),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: mutedGreen,
